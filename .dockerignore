@@ -1,0 +1,15 @@
+**/.git
+**/.gitignore
+**/.github
+**/target
+**/*.md
+**/docs
+**/tools
+**/*.log
+**/.idea
+**/.vscode
+.editorconfig
+.gitattributes
+.markdownlint-cli2.jsonc
+.yamllint
+Makefile

@@ -1,0 +1,42 @@
+# Target & Build Output
+target/
+*.class
+
+# Maven & JVM Crash Logs
+hs_err_pid*
+replay_pid*
+.mvn/timing.properties
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# IDE & Editor Files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.project
+.classpath
+.settings/
+*.swp
+*.swo
+*~
+*.bak
+
+# Environment and Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# Logs & Temporary files
+*.log
+logs/
+tmp/
+scratch/

@@ -1,0 +1,20 @@
+server:
+  port: 8085
+  shutdown: graceful
+
+spring:
+  application:
+    name: tracelyt-notifications
+  lifecycle:
+    timeout-per-shutdown-phase: 30s
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: when-authorized
+      probes:
+        enabled: true

@@ -1,0 +1,42 @@
+name: Bug Report
+description: Create a report to help us fix a bug or unexpected behavior in build or documentation.
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue! Please ensure that this report does not contain sensitive tokens, webhook URLs with credentials, or production secrets.
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Exact commands executed to reproduce the issue.
+      placeholder: |
+        1. Run './mvnw clean test'
+        2. See error ...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Log Output
+      description: Please copy and paste any relevant terminal or build output.
+      render: shell
+    validations:
+      required: false
+  - type: input
+    id: environment
+    attributes:
+      label: Environment Information
+      description: OS version, Java version (`java -version`), etc.
+      placeholder: Windows 11 / Ubuntu 22.04, OpenJDK 21.0.9
+    validations:
+      required: true

@@ -1,0 +1,30 @@
+name: Feature / Architecture Request
+description: Propose an architectural improvement or provider design enhancement.
+title: "[FEAT]: "
+labels: ["enhancement", "architecture"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please consult the [Architecture Documentation](https://github.com/Tracelyt-Systems/tracelyt-notifications/tree/main/docs) before submitting major proposals.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What architectural gap or channel requirement does this proposal address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Solution / Architecture
+      description: Describe the proposed design and how it impacts provider boundaries.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: What other approaches or providers were considered?
+    validations:
+      required: false

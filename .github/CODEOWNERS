@@ -1,0 +1,6 @@
+# Global default code owners for Tracelyt Notifications
+* @Gyanendra7053 @priyanshuvishwakarma273403
+
+# CI workflows and security policies
+.github/workflows/ @Gyanendra7053 @priyanshuvishwakarma273403
+SECURITY.md @Gyanendra7053 @priyanshuvishwakarma273403
